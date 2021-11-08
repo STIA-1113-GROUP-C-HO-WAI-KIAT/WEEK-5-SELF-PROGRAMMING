@@ -1,0 +1,53 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class If {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int x;
+		
+		
+		Scanner sc = new Scanner (System.in);
+		
+		 System.out.println("Enter the number:");
+		    x = sc.nextInt();
+		
+		
+		if (x == 10 ) {
+		 int y = x + 10;
+		System.out.println("The y is:" + y);			
+		}
+		
+		if (x != 10 ) {
+			 int y = x + 10;
+			System.out.println("The y is:" + y);			
+			}
+		
+		if (x < 10 ) {
+			 int y = x + 20;
+			System.out.println("The y is:" + y);			
+			}
+		
+		if (x > 10 ) {
+			 int y = x + 20;
+			System.out.println("The y is:" + y);			
+			}
+		
+		if (x <= 10 ) {
+			 int z = x + 30;
+			System.out.println("The z is:" + z);			
+			}
+		
+		if (x >= 10 ) {
+			 int a = x + 40;
+			System.out.println("The a is:" + a);			
+			}
+		
+		
+
+	}
+
+}
