@@ -22,28 +22,28 @@ public class If {
 		}
 		
 		if (x != 10 ) {
-			 int y = x + 10;
-			System.out.println("The y is:" + y);			
+			 int a = x + 10;
+			System.out.println("The a is:" + a);			
 			}
 		
 		if (x < 10 ) {
-			 int y = x + 20;
-			System.out.println("The y is:" + y);			
+			 int b = x + 20;
+			System.out.println("The b is:" + b);			
 			}
 		
 		if (x > 10 ) {
-			 int y = x + 20;
-			System.out.println("The y is:" + y);			
+			 int c = x + 20;
+			System.out.println("The c is:" + c);			
 			}
 		
 		if (x <= 10 ) {
-			 int z = x + 30;
-			System.out.println("The z is:" + z);			
+			 int d = x + 30;
+			System.out.println("The d is:" + d);			
 			}
 		
 		if (x >= 10 ) {
-			 int a = x + 40;
-			System.out.println("The a is:" + a);			
+			 int e = x + 40;
+			System.out.println("The e is:" + e);			
 			}
 		
 		
@@ -51,3 +51,4 @@ public class If {
 	}
 
 }
+
