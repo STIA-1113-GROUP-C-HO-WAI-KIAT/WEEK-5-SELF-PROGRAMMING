@@ -1,0 +1,39 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class MultiplySelection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int mark;
+		
+		
+		
+		Scanner sc = new Scanner (System.in);
+		   System.out.println("Enter the mark:");
+		    mark = sc.nextInt();
+		    
+		    if ((mark >= 90) && (mark <=100)) {
+				char grade = 'A';
+		    System.out.println("The grade is:" + grade );
+		    }   
+	        if ((mark >= 80) && (mark <= 89)) {
+				char grade = 'B';
+	        System.out.println("The grade is:" + grade );
+	        }
+	        if ((mark >= 70) && (mark <= 79)) {
+				char grade = 'C';
+	        System.out.println("The grade is:" + grade );
+	        }
+	        if ((mark >= 60) && (mark <= 69)) {
+				char grade = 'D';
+	        System.out.println("The grade is:" + grade );
+	        }
+	        if ((mark >= 0) && (mark <= 59)) {
+				char grade = 'F';
+	        System.out.println("The grade is:" + grade );
+	        }
+	}
+
+}
